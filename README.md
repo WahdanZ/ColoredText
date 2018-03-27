@@ -11,9 +11,15 @@ https://github.com/WahdanZ/ColoredText/blob/master/app/src/main/java/com/wahdan/
 Before :
           TextView tv = (TextView)findViewById(R.id.tv);
 
-    Spannable wordtoSpan = new SpannableString("I know just how to whisper, And I know just how to cry,I know just where to find the answers");        
-    wordtoSpan.setSpan(new ForegroundColorSpan(Color.BLUE), 15, 30, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
-    wordtoSpan.setSpan(new ForegroundColorSpan(Color.RED), 5, 10, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+    Spannable wordtoSpan = new SpannableString("Hello Red Hello Yellow Hello Green 10 9 https://stackoverflow.com".link
+    My Custom Color With UnderLine");        
+    wordtoSpan.setSpan(new ForegroundColorSpan(Color.RED), 0, 7, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+    wordtoSpan.setSpan(new ForegroundColorSpan(Color.RED), 8, 19, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+    .
+    .
+    .
+    .
+    .
     tv.setText(wordtoSpan);
     
 After :
