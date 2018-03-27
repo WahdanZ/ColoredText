@@ -8,8 +8,8 @@ https://github.com/WahdanZ/ColoredText/blob/master/app/src/main/java/com/wahdan/
 
 
 
-Before :
-          
+Before : Using Java
+```java
     TextView tv = (TextView)findViewById(R.id.textView_helloWorld);
     Spannable wordtoSpan = new SpannableString("Hello Red Hello Yellow Hello Green 10 9 https://stackoverflow.com".link
     My Custom Color With UnderLine");        
@@ -21,10 +21,12 @@ Before :
     .
     .
     tv.setText(wordtoSpan);
-    
-After :
+```
 
-               
+    
+After : Using Kotlin
+
+```kotlin    
     textView_helloWorld.coloredText =
        "Hello Red".redColor with   "Hello Yellow".yellowColor with
         "Hello Green".greenColor.bold withNewLine
@@ -32,5 +34,6 @@ After :
         "https://stackoverflow.com".link with
         "My Custom Color".coloredWithCode("#FFFFE0") with
         "With UnderLine".blueColor.limeColor.bold
-                
+```
+
  
