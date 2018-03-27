@@ -9,8 +9,8 @@ https://github.com/WahdanZ/ColoredText/blob/master/app/src/main/java/com/wahdan/
 
 
 Before :
-          TextView tv = (TextView)findViewById(R.id.tv);
-
+          
+    TextView tv = (TextView)findViewById(R.id.textView_helloWorld);
     Spannable wordtoSpan = new SpannableString("Hello Red Hello Yellow Hello Green 10 9 https://stackoverflow.com".link
     My Custom Color With UnderLine");        
     wordtoSpan.setSpan(new ForegroundColorSpan(Color.RED), 0, 7, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
