@@ -1,4 +1,4 @@
-package com.wahdan.coloredtextview
+package com.wahdan.coloredtext
 
 import android.os.Build
 import android.text.Html
